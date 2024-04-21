@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.cart {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.cart h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-item-title {
+  flex: 1;
+  margin: 0;
+}
+
+.cart-item-price {
+  margin: 0;
+}
+
+.cart-item-remove {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.cart-checkout {
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+ .cart {
+    width: 600px;
+  }
+
+ .cart-item-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="cart">
+        <h2>Carrito de compras</h2>
+        <ul class="cart-items">
+          <li class="cart-item">
+            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a95f185f3d904a1a976a76d0837a9c0f_9366/SATIN_TP_WL_Negro_IU2520_23_hover_model.jpg"
+             alt="Producto 1" class="cart-item-image">
+            <h3 class="cart-item-title">SATIN TP WL</h3>
+            <p class="cart-item-price">$59.990</p>
+            <button class="cart-item-remove">Eliminar</button>
+          </li>
+          <li class="cart-item">
+            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/668fb63e2bab4bd6842d2d5189c64459_9366/Body_adidas_x_Disney_Mickey_Mouse_Multicores_IN7283_01_laydown.jpg" 
+            alt="Producto 2" class="cart-item-image">
+            <h3 class="cart-item-title">BODY ADIDAS X DISNEY MICKEY MOUSE</h3>
+            <p class="cart-item-price">$44.990</p>
+            <button class="cart-item-remove">Eliminar</button>
+          </li>
+          <li class="cart-item">
+            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b7a01caed1944db19864afc200970bd4_9366/Polera_adidas_x_Marvel_Hombre_Arana_Negro_IB4849_02_laydown_hover.jpg"
+             alt="Producto 3" class="cart-item-image">
+            <h3 class="cart-item-title">POLERA ADIDAS X MARVEL HOMBRE ARAÑA</h3>
+            <p class="cart-item-price">$17.990</p>
+            <button class="cart-item-remove">Eliminar</button>
+          </li>
+        </ul>
+        <div class="cart-total">
+          <p>Total: $122.988</p>
+          <button class="cart-checkout">Checkout</button>
+        </div>
+      </div>
+
+
+
+    </body>
+</html>

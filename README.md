@@ -1,2 +1,2 @@
-# Tienda_ropa
- Proyecto de creacion de pagina web
+# tienda_ropa
+ proyecto evaluativo
