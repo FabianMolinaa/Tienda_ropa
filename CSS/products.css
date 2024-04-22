@@ -125,7 +125,7 @@ main{
 .container-img-producto{
     display: flex;
     width: 700px;
-    height: 730px;
+    height: 750px;
 }
 .container-img-producto img{
     width: 1px;  
