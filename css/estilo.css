@@ -1,71 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .card {
     height: 450px; 
 }
+/*FOOTER*/
 footer {
     background: #252020;
     padding: 45px 0;
     text-align: center;
     color: white;
-}
-.newsletter-form .form-control {
-    background: transparent;
-    border-radius: 0;
-    box-shadow: none;
-    border: 0;
-    border-bottom: 1px solid #303030;
-    height: 50px;
-    margin: 5px 0;
-}
-.newsletter-form input[type="submit"] {
-    background: transparent;
-    border: 1px solid #f9f9f9;
-    border-radius: 50px;
-    color: #ffffff;
-    display: block;
-    margin-top: 20px;
-    outline: none;
-    width: 50%;
-}
-.newsletter-form input[type="submit"]:hover {
-    background: #1A265C;
-    border-color: transparent;
-}
-.newsletter-form .form-group span {
-    color: #909090;
-    display: block;
-    font-size: 12px;
-    margin-top: 20px;
-}
-.centro{
-    text-align: center;
+
 }
 .letracopy{
     font-family:Arial, Helvetica, sans-serif;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-    align-items: center;
-
-}
+/*-------------------------------------*/
 body{
-	font-family: 'Ubuntu';
 	margin: 0 auto;   
 }
 img{
 	max-width: 100%;
 }
-nav{
-    background-color: red;
-}
-.a{
-    align-items: center;
-}
+/*navbar*/
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -76,7 +34,6 @@ nav{
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-
 .login-button {
     background-color: #007bff;
     color: #fff;
@@ -92,12 +49,9 @@ nav{
 .button:hover {
     background-color: rgba(0, 0, 0, 0.1);
   }
-
 .button:active {
     transform: translateY(1px);
   }
-
-  
 @media (max-width: 480px) {
     .button {
       display: block;
@@ -105,17 +59,36 @@ nav{
       margin-bottom: 10px;
     }
   }
-.a{
-    text-align: center;
-}
 .navbar-custom {
-    background-color:#d9d9d9; /* Cambiar este valor al color deseado */
+    background-color:#d9d9d9; /* Cambiar el color del nav */
   }
 .nav-link{
     color:black;
 }
+/*-------------------------------------*/
+/*carrousel*/
 .carousel-item img {
     max-height: 700px; /* Altura máxima */
     min-height: 300px; /* Altura mínima */
     width: auto; /* Permitir que el ancho se ajuste automáticamente */
   }
+/*-------------------------------------*/
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 767px) {
+    .card {
+      height: auto;
+    }
+  
+    .carousel-item img {
+      max-height: 300px;
+      min-height: 200px;
+    }
+  
+    .button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
