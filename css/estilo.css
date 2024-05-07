@@ -2,52 +2,51 @@
   margin: 0;
   padding: 0;
 }
-/*section-card*/
-section{
-  border: none;
+/*carrousel*/
+.carousel-item img {
+  max-height: 700px; /* Altura máxima */
+  min-height: 300px; /* Altura mínima */
+  width: auto; /* Permitir que el ancho se ajuste automáticamente */
 }
+/*-------------------------------------*/
+/*section*/
+/*CARD*/
 .card {
   position: relative;
   transition: all .4s;
   width: 100%;
   border: none;
-  background-color: #F1F1F1;
-
+  background-color: #fa0000;
 }
-
 .card img {
   width: 100%;
   height: auto;
   transition: transform .4s;
 }
-
 .card:hover img {
   transform: scale(0.9);
 }
-
 .price h5 {
   color: #111;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 400;
 }
-
 .price p {
   color: #151515;
   font-size: 14px;
   font-weight: 600;
 }
-
+/*---------------------------*/
 /*FOOTER*/
 footer {
-    background: #252020;
-    padding: 45px 0;
-    text-align: center;
-    color: white;
-
+  background: #252020;
+  padding: 45px 0;
+  text-align: center;
+  color: white;
 }
 .letracopy{
-    font-family:Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 /*-------------------------------------*/
 body{
@@ -98,13 +97,6 @@ img{
 .nav-link{
     color:black;
 }
-/*-------------------------------------*/
-/*carrousel*/
-.carousel-item img {
-    max-height: 700px; /* Altura máxima */
-    min-height: 300px; /* Altura mínima */
-    width: auto; /* Permitir que el ancho se ajuste automáticamente */
-  }
 /*-------------------------------------*/
 
 /* Estilos responsivos para pantallas pequeñas */
