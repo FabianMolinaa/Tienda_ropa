@@ -58,7 +58,6 @@ nav{
   cursor: pointer;
 }
 /*-------------------------------------*/
-/*-------------------------------------*/
 /*section*/
 /*CARD*/
 .card {
@@ -146,7 +145,7 @@ nav{
 }
 /*-------------------------------------*/
 
-/* Estilos responsivos para pantallas pequeñas */
+/* Estilos para dimensiones */
 @media (max-width: 767px) {
     .nav{
       padding: 20px 3%;
