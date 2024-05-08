@@ -12,52 +12,43 @@
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
   <!--icon de la pagina-->
   <link rel="website icon" type="png" href="https://upload.wikimedia.org/wikipedia/commons/6/60/XVideos_logo.svg">
+<!--ICONS DEL NAV-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!------------------------------------------------------------------------------------>
+
 </head>
 
 <body>
-  <!--bootstrap-->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
-    <!------------------------------------------------------------------------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<!--bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+crossorigin="anonymous"></script>
+<!------------------------------------------------------------------------------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+<nav>
+  <a href="#" class="logo"><img src="" 
+    alt="Logo"></a>
+  <ul>
+    <li><a href="#"></a>Home</li>
+    <li><a href="#"></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>   
+  <div class="nav-icon">
+    <a href=""><i class='bx bx-search'></i></a>
+    <a href=""><i class='bx bx-user' style='color:#ffffff' ></i></a>
+    <a href=""><i class='bx bx-cart-alt' style='color:#ffffff' ></i></a>
     
-        <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hombre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mujer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Niño</a>
-            </li>
-          </ul>
-    
-          <form class="d-flex justify-content-center align-items-center mb-2 mb-lg-0">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
-    
-          <div class="d-flex justify-content-center align-items-center">
-            <a href="iniciar-sesion.html" class="button login-button mx-2">Iniciar sesión</a>
-            <a href="registrar.html" class="button register-button mx-2">Registrar</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </div>
+</nav>
     
   <br>
   <br>
@@ -66,6 +57,32 @@
   
 
   <!--CAROUSEL-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner-1.png" class="d-block w-100" height="500px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner-2.png" class="d-block w-100" height="500px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner-3.png" class="d-block w-100" height="500px" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   
   
   <br>
@@ -157,11 +174,6 @@
     </div>
   </div>
 </section>
-  
-  
-  
-  
- 
   <br>
   <br>
   <br>

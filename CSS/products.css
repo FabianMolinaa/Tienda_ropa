@@ -147,6 +147,33 @@ main{
 
 /*-------------------------------------*/
 /*section*/
+/*CARD*/
+.card {
+  position: relative;
+  transition: all .4s;
+  width: 100%;
+  border: none;
+  background-color: #F3ECEC;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform .4s;
+}
+.card:hover img {
+  transform: scale(0.9);
+}
+.price h5 {
+  color: #111;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.price p {
+  color: #151515;
+  font-size: 14px;
+  font-weight: 600;
+}
 
 /*-------------------------------------*/
 /*FOOTER*/
@@ -200,10 +227,6 @@ footer {
 }
 /*dimesiones*/
 @media (max-width: 767px) {
-    .card {
-      height: auto;
-    }
-  
     .carousel-item img {
       max-height: 300px;
       min-height: 200px;

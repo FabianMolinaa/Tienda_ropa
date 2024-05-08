@@ -3,11 +3,7 @@
   padding: 0;
 }
 /*carrousel*/
-.carousel-item img {
-  max-height: 700px; /* Altura máxima */
-  min-height: 300px; /* Altura mínima */
-  width: auto; /* Permitir que el ancho se ajuste automáticamente */
-}
+
 /*-------------------------------------*/
 /*section*/
 /*CARD*/
@@ -16,7 +12,7 @@
   transition: all .4s;
   width: 100%;
   border: none;
-  background-color: #fa0000;
+  background-color: #F3ECEC;
 }
 .card img {
   width: 100%;
@@ -56,46 +52,13 @@ img{
 	max-width: 100%;
 }
 /*navbar*/
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-.login-button {
-    background-color: #007bff;
-    color: #fff;
-    border: 2px solid #007bff;
-  }
-
-.register-button {
-    background-color: #28a745;
-    color: #fff;
-    border: 2px solid #28a745;
-  }
-
-.button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-.button:active {
-    transform: translateY(1px);
-  }
-@media (max-width: 480px) {
-    .button {
-      display: block;
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  }
-.navbar-custom {
-    background-color:#d9d9d9; /* Cambiar el color del nav */
-  }
-.nav-link{
-    color:black;
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
 }
 /*-------------------------------------*/
 
