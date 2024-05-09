@@ -6,119 +6,9 @@
 
 /*-------------------------------*/
 /*navbar*/
-nav {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 10%;
-  background-color: antiquewhite;
+.nav{
+  background: red;
 }
-
-.logo img {
-  max-width: 120px;
-  height: auto;
-}
-
-.navmenu {
-  display: flex;
-  list-style-type: none;
-}
-
-.navmenu a {
-  color: black;
-  font-size: 16px;
-  text-transform: capitalize;
-  padding: 10px 20px;
-  font-weight: 400;
-  transition: all .42s ease;
-}
-
-.navmenu a:hover {
-  color: red;
-}
-
-.nav-icon {
-  display: flex;
-  align-items: center;
-}
-
-.nav-icon i {
-  margin-right: 20px;
-}
-
-.nav-icon i:hover {
-  transform: scale(1.1);
-  color: red;
-}
-
-#menu-icon {
-  font-size: 35px;
-  color: black;
-  z-index: 10001;
-}
-/*Barra de buscar*/
-.container {
-  position: relative;
-  padding: 5px;
-}
-
-input {
-  outline: none;
-  box-sizing: border-box;
-  height: 50px;
-  width: 0px;
-  padding: 0 10px;
-  color: #000;
-  border-radius: 50px;
-  font-size: 20px;
-  border: 1px solid #D50000;
-  transition: all .7s ease;
-}
-
-::placeholder {
-  color: grey;
-}
-
-.btn {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 60px;
-  height: 60px;
-  background: #D50000;
-  line-height: 60px;
-  border-radius: 50%;
-  text-align: center;
-  cursor: pointer;
-  transition: .5s;
-  
-}
-
-.btn i {
-  font-size: 20px;
-  color: white;
-  line-height: 60px;
-  transition: all .7s ease;
-  
-}
-
-.container:hover input {
-  width: 350px;
-}
-
-.container:hover i {
-  transform: rotate(-360deg);
-}
-
-.btn:hover {
-  background: #cc0000;
-}
-
 /*-------------------------------------*/
 /*section*/
 /*CARD*/
@@ -168,30 +58,7 @@ img{
 }
 /* Estilos para dimensiones */
 @media (max-width: 767px) {
-    .nav{
-      padding: 20px 3%;
-      transition: .4s;
-    }
-    .navmenu{
-      position: absolute;
-      top: 100%;
-      right: -100%;
-      width: 300px;
-      height: 130vh;
-      background: red;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 120px 30px;
-      transition: all .42s;
-    }
-    .navmenu a{
-      display: block;
-      margin: 18px 0;
-    }
-    .navmenu.open{
-      right: 0;
-    }
+    
     .card {
       height: auto;
     }
@@ -199,7 +66,5 @@ img{
       max-height: 300px;
       min-height: 200px;
     }
-    #menu-icon{
     
-    }
   }
